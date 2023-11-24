@@ -21,18 +21,23 @@ const HeroContainer = styled.div`
 
 const TextContainer = styled.div`
 
+
   position: absolute;
-  
     display: flex;
     align-items: flex-start;
-    justify-content: center;
-
+    justify-content: flex-start;
     flex-direction: column;
     width: 655px;
     height: 618px;
     flex-shrink: 0;
+    padding-top: 6rem;
     background: rgba(244, 242, 238, 0.42);
-    color: #000;}
+    color: #000;
+    @media only screen and (min-width:320px){
+      padding-top:60%;
+      margin-top:70%;
+      }
+  }
     h1{
         padding-left:5rem;
         color: #605343;
@@ -68,21 +73,24 @@ margin:0;
       h1{padding-left:2rem;
       font-size: 30px;
       }
-      p{
+      p {
         padding-left:2rem;
         font-size: 28px;
       }
+      p span{display:none}
       h6{display:none}
       
       }
       @media only screen and (min-width:1000px){
         h1{padding-left:5rem;
+          
         font-size: 50px;
         }
         p{
           padding-left:5rem;
           font-size: 45px;
         }
+        p span{display:block}
         h6{display:block}
       }
 `;
