@@ -12,7 +12,7 @@ function AwardsLogos() {
         {awards.map((dataAwards, i)=>(
   
     <div className="" key={i}>
-                    <div className="icon"><img src={dataAwards.ico_image} className="img-fluid"/></div>
+                    <div className="icon"><img src={dataAwards.ico_image} className="img-fluid" alt="AwardLogo"/></div>
                    
                  
                   
