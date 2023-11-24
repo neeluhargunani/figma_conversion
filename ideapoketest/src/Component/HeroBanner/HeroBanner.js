@@ -87,31 +87,7 @@ margin:0;
       }
 `;
 
-const CountdownContainer = styled.div`
-  display: flex;
-  margin-top: 20px;
-`;
 
-const ClockItem = styled.div`
-  font-size: 2rem;
-  margin-right: 10px;
-`;
-
-const CountdownText = styled.div`
-display: flex;
-position: absolute;
-top: 70%;
-left: 2%;
-span{
-    padding-left:10px;
-    color: #363534;
-font-family: PT Serif;
-font-size: 18px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-}
-`;
 
 const ActionButtons = styled.div`
 display: flex;

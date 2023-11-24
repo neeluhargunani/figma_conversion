@@ -1,12 +1,7 @@
 import {
   FooterSection,
   FooterContainer,
-//   FooterNewsletter,
-//   FooterNewsletterTitle,
-//   FooterNewsletterText,
-//   FooterNewsletterForm,
-//   FooterNewsletterInput,
-//   FooterBtn,
+
   FooterLinkContainer,
   FooterLinksWrapper,
   FooterLinks,
@@ -14,7 +9,7 @@ import {
   FooterLink,
   FooterCopyRight,
   FooterLinkTop,
-  FooterLabel,
+ 
   LogoImg,
   Img
 
@@ -30,9 +25,9 @@ function Footer() {
                       <FooterLinksWrapper>
                       
                       <FooterLinks>
-                      <FooterLinkTitle><LogoImg><Img src= "/assets/FooterLogo.svg"/></LogoImg></FooterLinkTitle>
-                      <FooterLinkTop to='/'><span className='spanText'><img src="/assets/PhoneIcon.svg"/></span><span className='spanText'>+1 (800) 430-8380</span></FooterLinkTop>
-                      <FooterLinkTop to='/'><span ><img src="/assets/ChatIcon.svg"/></span><span>Chat now</span> </FooterLinkTop>
+                      <FooterLinkTitle><LogoImg><Img src= "/assets/FooterLogo.svg" alt="Logo"/></LogoImg></FooterLinkTitle>
+                      <FooterLinkTop to='/'><span className='spanText'><img src="/assets/PhoneIcon.svg" alt="phone"/></span><span className='spanText'>+1 (800) 430-8380</span></FooterLinkTop>
+                      <FooterLinkTop to='/'><span ><img src="/assets/ChatIcon.svg" alt="Chat"/></span><span>Chat now</span> </FooterLinkTop>
                       <FooterLinkTop to='/'><span>@</span><span>support@puffy.com</span></FooterLinkTop>
                      
                           </FooterLinks>

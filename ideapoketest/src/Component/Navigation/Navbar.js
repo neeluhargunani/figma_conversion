@@ -32,19 +32,19 @@ const Navbar = () => {
         <LinksContainer>
           <NavLink href="/find-stores">
             <span>
-              <img src="/assets/locationIcon.svg" className="icoimg" />
+              <img src="/assets/locationIcon.svg" className="icoimg" alt="location" />
             </span>
             <span>Find Stores</span>
           </NavLink>
           <NavLink href="/support">
             <span>
-              <img src="/assets/phone.svg" className="icoimg" />
+              <img src="/assets/phone.svg" className="icoimg" alt="phone" />
             </span>
             <span>Support</span>
           </NavLink>
           <NavLink href="/my-account">
             <span>
-              <img src="/assets/account.svg" className="icoimg" />
+              <img src="/assets/account.svg" className="icoimg" alt="account" />
             </span>
             <span>My Account</span>
           </NavLink>
@@ -53,10 +53,10 @@ const Navbar = () => {
 
       <Nav>
       <MenuButton onClick={toggleMenu}>
-          <img src="/assets/svgLines.svg" />
+          <img src="/assets/svgLines.svg" alt="hamburger"/>
         </MenuButton>
         <Logo>
-          <Img src="/assets/Logo.svg" />
+          <Img src="/assets/Logo.svg" alt="Logo"/>
         </Logo>
         <LinksContainer style={{ display: isOpen ? 'flex' : 'none' }}>
 
