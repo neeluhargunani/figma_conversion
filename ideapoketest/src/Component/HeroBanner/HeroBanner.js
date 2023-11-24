@@ -172,11 +172,11 @@ const HeroBanner = () => {
         <ClockItem>{timeLeft.seconds.toString().padStart(2, '0')}</ClockItem>
       </CountdownContainer>
       */}
-       <CountdownText>
+       {/* <CountdownText> */}
         {/* <p>Sale Ends in:</p> */}
         <p><span>Hours</span> <span>Minutes</span> <span> Seconds</span></p>
      
-      </CountdownText>
+      {/* </CountdownText> */}
       <ActionButtons>
         <ActionButton>Shop Mattress</ActionButton>
         <ActionButton>Take The Quiz</ActionButton>
